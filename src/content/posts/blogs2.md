@@ -9,7 +9,6 @@ category: 'Examples'
 draft: false 
 ---
 
-# 如何申请免费域名并且托管到Cloudflare上并且绑定到Pages（Workers）的一条龙
 
 ## 第一步：准备工作
 1. 一个邮箱
