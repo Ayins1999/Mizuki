@@ -44,10 +44,10 @@ export const siteConfig: SiteConfig = {
 		diary: false, // 日记页面开关
 		friends: false, // 友链页面开关
 		projects: true, // 项目页面开关
-		skills: true, // 技能页面开关
-		timeline: true, // 时间线页面开关
-		albums: true, // 相册页面开关
-		devices: true, // 设备页面开关
+		skills: false, // 技能页面开关
+		timeline: false, // 时间线页面开关
+		albums: false, // 相册页面开关
+		devices: false, // 设备页面开关
 	},
 
 	// 顶栏标题配置
@@ -142,7 +142,7 @@ export const siteConfig: SiteConfig = {
 
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
-			interval: 5, // 轮播间隔时间（秒）
+			interval: 3.5, // 轮播间隔时间（秒）
 		},
 
 		waves: {
@@ -485,7 +485,7 @@ export const announcementConfig: AnnouncementConfig = {
 
 export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: false, // 启用音乐播放器功能
-	showFloatingPlayer: true, // 显示悬浮播放器 UI
+	showFloatingPlayer: false, // 显示悬浮播放器 UI
 	floatingEntryMode: "fab", // 悬浮入口模式："default" 为独立悬浮播放器，"fab" 为集成到通用 FAB 组
 	mode: "local", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
